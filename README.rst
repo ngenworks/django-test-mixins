@@ -10,7 +10,7 @@ Assertion mixin
 
 ::
 
-    from test_mixins.assert import AssertStatusMixin
+    from test_mixins.assertions import AssertStatusMixin
 
     class SomeTestClass(AssertStatusMixin, TestCase):
         def some_test(self):
